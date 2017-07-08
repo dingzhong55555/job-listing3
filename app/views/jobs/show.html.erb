@@ -2,3 +2,7 @@
 <br><br>
 
 <%= @job.description %>
+
+<div class="text-center">
+  <h3><%= link_to("提交简历", new_job_resume_path(@job)) %></h3>
+</div>
